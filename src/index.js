@@ -10,8 +10,7 @@ function component() {
   //   // Lodash, now imported by this script
   //   element.innerText = "Hello webpack";
   //   element.classList.add("hello");
-  element.append(createTimeInput());
-  element.append(createButtonElement());
+  element.append(createTimeInput(), createButtonElement());
 
   // Add the image to our existing div.
   //    const myIcon = new Image();
