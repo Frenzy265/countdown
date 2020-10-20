@@ -7,9 +7,9 @@ import { createButtonElement } from "./components/button";
 function component() {
   const element = document.createElement("div");
 
-  // Lodash, now imported by this script
-  element.innerText = "Hello webpack";
-  element.classList.add("hello");
+  //   // Lodash, now imported by this script
+  //   element.innerText = "Hello webpack";
+  //   element.classList.add("hello");
   element.append(createTimeInput());
   element.append(createButtonElement());
 
@@ -22,4 +22,4 @@ function component() {
   return element;
 }
 
-document.body.appendChild(component());
+document.body.append(component());

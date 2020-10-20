@@ -4,6 +4,7 @@ export const createTimeInput = () => {
   const inputfield = createElement("input", {
     className: "time-input",
     type: "number",
+    placeholder: "Enter time",
   });
   return inputfield;
 };
