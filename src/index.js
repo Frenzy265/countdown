@@ -1,13 +1,17 @@
-import _ from "lodash";
 import "./style.css";
-//import imageName from "./..."
+import { createTimeInput } from "./components/timeinput";
+import { createButtonElement } from "./components/button";
+
+// import imageName from "./...";
 
 function component() {
   const element = document.createElement("div");
 
   // Lodash, now imported by this script
-  element.innerHTML = _.join(["Hello", "webpack"], " ");
+  element.innerText = "Hello webpack";
   element.classList.add("hello");
+  element.append(createTimeInput());
+  element.append(createButtonElement());
 
   // Add the image to our existing div.
   //    const myIcon = new Image();
