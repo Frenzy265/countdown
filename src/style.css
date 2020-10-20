@@ -2,3 +2,23 @@
   color: red;
   /* background: url('./icon.png') */
 }
+
+.time-btn {
+  width: 200px;
+  height: 75px;
+  background-image: linear-gradient(rgb(73, 155, 231), rgb(95, 95, 236));
+  color: whitesmoke;
+  border: none;
+}
+
+.time_input {
+  width: 200px;
+  height: 40px;
+  border: 1px solid blue;
+}
+
+.time-input::placeholder {
+  color: rgb(179, 174, 174);
+  font-size: 15px;
+  font-style: italic;
+}
